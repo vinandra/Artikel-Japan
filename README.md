@@ -1,3 +1,3 @@
 # Artikel Japan
 
-[Link artikrl](https://artikel-japan.vinandra207.repl.co/)
+[Link artikel](https://artikel-japan.vinandra207.repl.co/)
