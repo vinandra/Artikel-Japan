@@ -53,7 +53,7 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 960px;
     margin: auto;
     background-color: #eaeaea;
 }
@@ -83,32 +83,34 @@ body {
 }
 
 .hero {
-    height: 280px;
-    background-image: url(src/img/suasana\ di\ jepang.png);
+    height: 320px;
+    background-image: url(src/img/0405-shibuya.jpg);
     background-size: cover;
-    background-position: 0px -100px;
 }
 
-.content {
+.main {
+    width: 600px;
     padding: 20px;
+    box-sizing: border-box;
+    float: left;
 }
 
-.content h2 {
+.main h2 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
 
-.content .penulis {
+.main .penulis {
     font-size: 13px;
 }
 
-.content p {
+.main p {
     margin-bottom: 20px;
     font-size: 16px;
 }
 
-.content a {
+.main a {
     color: darkblue;
     text-decoration: none;
 }
@@ -122,4 +124,44 @@ body {
     color: whitesmoke;
     text-align: center;
     font-size: 12px;
+}
+
+/* sidebar */
+
+.sidebar {
+    width: 300px;
+    float: right;
+    padding: 30px;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+
+}
+
+.sidebar img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    padding-right: 10px;
+}
+
+/* config css */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
